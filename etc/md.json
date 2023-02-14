@@ -1,30 +1,47 @@
 {
     "authors": [
-        "Author 1",
-        "Author 2",
-        {
-            "name": "Author 3",
-            "affiliation": "University 1"
-        },
-        {
-            "name": "Author 4",
-            "primary": false
-        }
+        {"name": "Rolf Hotz", "affiliation": "University of Sydney"}
     ],
     "language": {
-        "name": "insert language name here",
-        "isocode": "insert ISO 339-3 code here",
-        "glottocode": "insert glottocode here"
+        "name": "Chintang",
+        "isocode": "ctn",
+        "glottocode": "chhi1245"
     },
     "properties": {
-        "entry_sep": "\\lx ",
-        "marker_map": {},
-        "entry_map": {},
-        "sense_map": {},
-        "example_map": {},
+        "entry_sep": "\\lex ",
+        "marker_map": {
+            "lex": "lx",
+            "ct": "lc",
+            "ety": "et",
+            "com": "nt",
+            "gn": "gxx",
+            "exe": "xe",
+            "exn": "xn"
+        },
+        "entry_map": {
+            "alt": "Alternative_Pronounciation",
+            "morph": "Regular_Allomorphs",
+            "val": "Valency",
+            "lg": "Language",
+            "reg": "Register",
+            "qst": "Question"
+        },
+        "sense_map": {
+            "gxx": "alt_translation1",
+            "seme": "Expanded_Definition_English",
+            "semn": "Expanded_Definition_Nepali",
+            "se": "Derived_Meaning_Chintang",
+            "des": "Derived_Meaning_English",
+            "gns": "Derived_Meaning_Nepali"
+        },
+        "example_map": {
+            "exsrc": "Example_Source"
+        },
+        "metalanguages": {
+            "gxx": "Nepali"
+        },
         "labels": {
         },
         "custom_fields": []
     }
 }
-
