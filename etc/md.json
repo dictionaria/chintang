@@ -17,6 +17,7 @@
             "gn": "gxx",
             "ex": "xv",
             "exe": "xe",
+            "cf": "ignoreme",
             "exn": "xn"
         },
         "entry_map": {
