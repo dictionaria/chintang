@@ -1,0 +1,474 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Dictionary",
+    "dc:creator": "Rolf Hotz",
+    "dc:identifier": "https://dictionaria.clld.org/contributions/chintang",
+    "dc:license": "https://creativecommons.org/licenses/by/4.0/",
+    "dc:title": "Chintang Dictionary",
+    "prov:wasDerivedFrom": [
+        {
+            "rdf:about": "chintang",
+            "rdf:type": "prov:Entity",
+            "dc:created": "1414ac0",
+            "dc:title": "Repository"
+        },
+        {
+            "rdf:about": "https://github.com/glottolog/glottolog",
+            "rdf:type": "prov:Entity",
+            "dc:created": "v4.7",
+            "dc:title": "Glottolog"
+        }
+    ],
+    "prov:wasGeneratedBy": [
+        {
+            "dc:title": "python",
+            "dc:description": "3.8.10"
+        },
+        {
+            "dc:title": "python-packages",
+            "dc:relation": "requirements.txt"
+        }
+    ],
+    "rdf:ID": "chintang",
+    "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
+    "tables": [
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#EntryTable",
+            "dc:extent": 10822,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "dc:extent": "singlevalued",
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "required": true,
+                        "name": "Language_ID"
+                    },
+                    {
+                        "dc:extent": "singlevalued",
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#headword",
+                        "required": true,
+                        "name": "Headword"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#partOfSpeech",
+                        "required": false,
+                        "name": "Part_Of_Speech"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Alternative_Pronounciation"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Citation_Form"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Etymology"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Language"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Question"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Register"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Regular_Allomorphs"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Valency"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "entries.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#SenseTable",
+            "dc:extent": 10822,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                        "required": true,
+                        "name": "Description"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#entryReference",
+                        "required": true,
+                        "name": "Entry_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
+                        "name": "Comment"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Derived_Meaning_Chintang"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Derived_Meaning_English"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Derived_Meaning_Nepali"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Expanded_Definition_English"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Expanded_Definition_Nepali"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "alt_translation1"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Entry_ID"
+                        ],
+                        "reference": {
+                            "resource": "entries.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "senses.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
+            "dc:extent": 1700,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "dc:extent": "singlevalued",
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "required": true,
+                        "name": "Language_ID"
+                    },
+                    {
+                        "dc:description": "The example text in the source language.",
+                        "dc:extent": "singlevalued",
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#primaryText",
+                        "required": true,
+                        "name": "Primary_Text"
+                    },
+                    {
+                        "dc:description": "The sequence of words of the primary text to be aligned with glosses",
+                        "dc:extent": "multivalued",
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#analyzedWord",
+                        "required": false,
+                        "separator": "\t",
+                        "name": "Analyzed_Word"
+                    },
+                    {
+                        "dc:description": "The sequence of glosses aligned with the words of the primary text",
+                        "dc:extent": "multivalued",
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#gloss",
+                        "required": false,
+                        "separator": "\t",
+                        "name": "Gloss"
+                    },
+                    {
+                        "dc:description": "The translation of the example text in a meta language",
+                        "dc:extent": "singlevalued",
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#translatedText",
+                        "required": false,
+                        "name": "Translated_Text"
+                    },
+                    {
+                        "dc:description": "References the language of the translated text",
+                        "dc:extent": "singlevalued",
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#metaLanguageReference",
+                        "required": false,
+                        "name": "Meta_Language_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
+                        "required": false,
+                        "name": "Comment"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Example_Source"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ; ",
+                        "name": "Sense_IDs"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "alt_translation1"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Meta_Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Sense_IDs"
+                        ],
+                        "reference": {
+                            "resource": "senses.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "examples.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#MediaTable",
+            "dc:extent": 0,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "required": false,
+                        "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                        "required": false,
+                        "name": "Description"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[^/]+/.+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#mediaType",
+                        "required": true,
+                        "name": "Media_Type"
+                    },
+                    {
+                        "datatype": "anyURI",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#downloadUrl",
+                        "required": false,
+                        "name": "Download_URL"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#pathInZip",
+                        "required": false,
+                        "name": "Path_In_Zip"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "name": "Language_ID"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "size"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "media.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
+            "dc:extent": 1,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "required": false,
+                        "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#macroarea",
+                        "required": false,
+                        "name": "Macroarea"
+                    },
+                    {
+                        "datatype": {
+                            "base": "decimal",
+                            "minimum": "-90",
+                            "maximum": "90"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#latitude",
+                        "required": false,
+                        "name": "Latitude"
+                    },
+                    {
+                        "datatype": {
+                            "base": "decimal",
+                            "minimum": "-180",
+                            "maximum": "180"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#longitude",
+                        "required": false,
+                        "name": "Longitude"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-z0-9]{4}[1-9][0-9]{3}"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode",
+                        "required": false,
+                        "valueUrl": "http://glottolog.org/resource/languoid/id/{Glottocode}",
+                        "name": "Glottocode"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-z]{3}"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#iso639P3code",
+                        "required": false,
+                        "name": "ISO639P3code"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "languages.csv"
+        }
+    ]
+}
