@@ -4,6 +4,7 @@ bs4==0.0.1
 cdstarcat==1.4.0
 certifi==2022.12.7
 cldfbench==1.13.0
+-e git+https://github.com/dictionaria/chintang@3f2e8372306ee18151584bb6978bffc5bf81b627#egg=cldfbench_chintang
 cldfcatalog==1.5.1
 cldfzenodo==1.1.0
 clldutils==3.19.0
