@@ -78,7 +78,7 @@ Some verbs include a preverbal element. Although these form a single lexeme, end
 <h4 id="Orthography and contrastive phonology">3.4 Orthography and contrastive phonology</h4>
 <p>The orthography used in the present dictionary is largely functional to the linguistic analysis since native speakers do not usually write down their language and are more acquainted with the Devanagari script used for Nepali rather than the Latin characters and IPA signs. For this reason, this publication employs an orthography which is as close as possible to the phonology of the language, rendering it practical for both linguistic analysis and accessible to a general public with a basic understanding of linguistics. <br /> Tables 1. and 2. display the vowels (with their nasalized counterparts) and consonants of the language.</p>
 <p>&nbsp;</p>
-<table class="tg">
+<table class="table table-bordered">
 <thead>
   <tr>
     <th class="tg-0pky">Table 1. Vowels</th>
@@ -118,7 +118,7 @@ Some verbs include a preverbal element. Although these form a single lexeme, end
 <ul>
 <li>Many vowels can be combined in Chintang to form diphthongs such as /ai/ or /au/.<br /><br /></li>
 </ul>
-<table class="tg">
+<table class="table table-bordered">
 <thead>
   <tr>
     <th class="tg-0lax" colspan="7">Table 2. Consonants       </th>
@@ -212,7 +212,7 @@ Some verbs include a preverbal element. Although these form a single lexeme, end
 
 <h4 id="Limits of the dictionary">3.5 Limits of the dictionary</h4>
 <p>The present dictionary incorporates an immense number of entries that encompass most aspects of the language. However vast the range of words in this dictionary is, it cannot be conclusive. As mentioned in section 2. the present dictionary is mostly based on a corpus and not on systematic lexicographic elicitation. Even though the number of entries is immense, especially for a minority language, and the possibility of extracting vocabulary from recordings of various registers and different levels of supervision is an asset, specific vocabulary and rare words may be lacking in some cases. This is especially the case for wild fauna and flora and other semantic fields that rarely occur in everyday speech. Furthermore, having a camera and a recording device might have hindered the use of swear words or other registers deemed less appropriate for a recorded setting. In this line, we can also refer to the case of religious terminology, the mundum register; the precise meaning of some of the mundum entries remains obscure mainly due to their spiritual character, which often escapes simple translations. Furthermore, the mundum register is only known to mundum experts and not to the layman. Finding a precise description of these words will require a larger ethnographic study (cf. Rai et al 2009, 31f.).<br />
-A further issue is the variety of Nepali language that is spoken in Chintang. Chintang has borrowed extensively from Nepali, particularly nouns. Aditionally, code switching is also very common in corpus recording, which explains the high number of entries of Nepali origin from all parts of speech. Here the reader must be warned about the quality of those Nepali words; in most cases, the type of Nepali that was recorded during the creation of the corpus corresponds to what we might call <em>Chintang</em> (or <em>Kiranti</em>) Nepali. In practical terms, this means that some phonological features of Nepali are neutralized, much in line with Chintang phonology. Most importantly we can mention the Nepali vowel /ʌ/ &lt;a&gt; that merges with /a/ &lt;ā&gt; and the series of dental consonants that merge with their retroflex counterparts. Thus, we find in the dictionary two entries of Nepali origin under <em>dhan</em>: one meaning 'wealth' in N. <em>dhan</em> /dhʌn/ and the other 'growing.rice' in N. <em>dhān</em> /dhan/ (note the different quality of the vowels, both are pronounced [ɖʰan] in Chintang). Furthermore, under <em>tin</em> we find both 'tin' (an English loanword that entered Chintang through Nepali) N. <em>ṭin</em> /ʈin/ and 'three' (from N.) that is pronounced in Nepali as <em>tin</em> /t̪in/ (note the difference on the initial stop, both are pronounced [ʈin] in Chintang). In conclusion, the entries of Nepali origin (marked by a N) must be considered in relation to Chintang or Chintang Nepali at best, as they do not match the standard of a lexicographic study on their own. </p>
+A further issue is the variety of Nepali language that is spoken in Chintang. Chintang has borrowed extensively from Nepali, particularly nouns. Aditionally, code switching is also very common in corpus recording, which explains the high number of entries of Nepali origin from all parts of speech. Here the reader must be warned about the quality of those Nepali words; in most cases, the type of Nepali that was recorded during the creation of the corpus corresponds to what we might call <em>Chintang</em> (or <em>Kiranti</em>) Nepali. In practical terms, this means that some phonological features of Nepali are neutralized, much in line with Chintang phonology. Most importantly we can mention the Nepali vowel /ʌ/ $\lt$a$\gt$ that merges with /a/ $\lt$ā$\gt$ and the series of dental consonants that merge with their retroflex counterparts. Thus, we find in the dictionary two entries of Nepali origin under <em>dhan</em>: one meaning 'wealth' in N. <em>dhan</em> /dhʌn/ and the other 'growing.rice' in N. <em>dhān</em> /dhan/ (note the different quality of the vowels, both are pronounced [ɖʰan] in Chintang). Furthermore, under <em>tin</em> we find both 'tin' (an English loanword that entered Chintang through Nepali) N. <em>ṭin</em> /ʈin/ and 'three' (from N.) that is pronounced in Nepali as <em>tin</em> /t̪in/ (note the difference on the initial stop, both are pronounced [ʈin] in Chintang). In conclusion, the entries of Nepali origin (marked by a N) must be considered in relation to Chintang or Chintang Nepali at best, as they do not match the standard of a lexicographic study on their own. </p>
 
 
 
@@ -235,10 +235,10 @@ Table 3. displays a maximally simple scheme for stem alternation in Chintang. Al
 
 <style type="text/css">
 </style>
-<table class="tg">
+<table class="table table-bordered">
 <thead>
   <tr>
-    <th class="tg-0pky">Table 4. Stem alternation</th>
+    <th class="tg-0pky">Table 3. Stem alternation</th>
     <th class="tg-0pky"></th>
     <th class="tg-0pky"></th>
     <th class="tg-0pky"></th>
