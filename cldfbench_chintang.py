@@ -3,7 +3,7 @@ import pathlib
 
 from cldfbench import CLDFSpec, Dataset as BaseDataset
 
-from pybtex.database import parse_string
+from simplepybtex.database import parse_string
 from pydictionaria.sfm_lib import Database as SFM
 from pydictionaria import sfm2cldf
 
@@ -42,7 +42,6 @@ class Dataset(BaseDataset):
 
         >>> self.raw_dir.download(url, fname)
         """
-        pass
 
     def cmd_makecldf(self, args):
         """
@@ -89,7 +88,7 @@ class Dataset(BaseDataset):
         # processing
 
         with open(self.dir / 'cldf.log', 'w', encoding='utf-8') as log_file:
-            log_name = '%s.cldf' % language_id
+            log_name = f'{language_id}.cldf'
             cldf_log = sfm2cldf.make_log(log_name, log_file)
 
             entries, senses, examples, media = sfm2cldf.process_dataset(

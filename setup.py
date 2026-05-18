@@ -14,6 +14,7 @@ setup(
     install_requires=[
         'cldfbench[glottolog]',
         'pydictionaria',
+        'simplepybtex',
     ],
     extras_require={
         'test': [
