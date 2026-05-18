@@ -6,7 +6,7 @@
         }
     ],
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Dictionary",
-    "dc:creator": "Balthasar Bickel and Sabine Stoll and Elene Lieven and Novel Kishor Rai and Manoj Rai and Netra Prasad Paudyal and Robert Schikowski and Martin Gaenszle and Goma Banjade and Ichchha Purna Rai and Toya Nath Bhatta and Sebastian Sauppe and Rikhi Maya Rai and Janak Kumari Rai and Lash Kumari (Renuka) Rai and Durga Bahadur Rai and Ganesh Rai and Dayaram Rai and Durga Kumari Rai and Anita Rai and Chandra Kumari Rai and Shanti Maya Rai and Rabindra Kumar Rai and Judi Pettigrew and Taras Zakharko and Dagmar Jung and Rolf Hotz",
+    "dc:creator": "Rolf Hotz and Robert Schikowski and Ichchha Purna Rai and Anita Rai and Chandra Kumari Rai and Dayaram Rai and Durga Bahadur Rai and Durga Kumari Rai and Ganesh Rai and Janak Kumari Rai and Lash Kumari (Renuka) Rai and Manoj Rai and Rabindra Kumar Rai and Rikhi Maya Rai and Shanti Maya Rai and Goma Banjade and Toya Nath Bhatta and Dagmar Jung and Netra Prasad Paudyal and Judi Pettigrew and Sebastian Sauppe and Taras Zakharko and Martin Gaenszle and Novel Kishor Rai and Elena Lieven and Sabine Stoll and Balthasar Bickel",
     "dc:identifier": "https://dictionaria.clld.org/contributions/chintang",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:title": "Chintang Dictionary",
@@ -15,20 +15,20 @@
         {
             "rdf:about": "https://github.com/dictionaria/chintang",
             "rdf:type": "prov:Entity",
-            "dc:created": "3f2e837",
+            "dc:created": "d0be5d5",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.7",
+            "dc:created": "v5.3",
             "dc:title": "Glottolog"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.8.10"
+            "dc:description": "3.10.20"
         },
         {
             "dc:title": "python-packages",
@@ -261,6 +261,17 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#metaLanguageReference",
                         "required": false,
                         "name": "Meta_Language_ID"
+                    },
+                    {
+                        "dc:description": "The level of conformance of the example with the Leipzig Glossing Rules",
+                        "dc:extent": "singlevalued",
+                        "datatype": {
+                            "base": "string",
+                            "format": "WORD_ALIGNED|MORPHEME_ALIGNED"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#lgrConformance",
+                        "required": false,
+                        "name": "LGR_Conformance"
                     },
                     {
                         "datatype": "string",
