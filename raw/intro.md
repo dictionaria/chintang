@@ -16,19 +16,20 @@ Chintang (natively pronounced [ˈt̻s̻ʰiɳʈaŋ], ISO 639-3 code: `ctn`, Glott
 `chhi1245`) belongs to the Eastern Kiranti branch of Sino-Tibetan and is spoken
 by approximately 4,000–5,000 speakers in the Dhankuta district of Eastern Nepal.
 The name of the language is also the name of the area where the language is
-spoken.<a href="#ref1" id="1" data-toggle="tooltip" title="The rough area where it is spoken was formerly the ‘Chintang Village Development Committee’ (VDC) but it has recently merged with other VDCs into the Shahidbhumi Rural Municipality."><sup>1</sup></a>
+spoken.<a href="#fn:1" id="fnref:1" data-toggle="tooltip" title="The rough area where it is spoken was formerly the ‘Chintang Village Development Committee’ (VDC) but it has recently merged with other VDCs into the Shahidbhumi Rural Municipality."><sup>1</sup></a>
 In Nepali, the national language and lingua franca of Nepal, Chintang is
 commonly referred to as *Chintāṅge bhāṣā* ‘Chintangish language’.  Apart from
 the Chintang area and neighboring settlement of Ahale, the language is spoken by
 a considerable number of people who periodically or permanently migrated to
 Dhankuta, the district capital, and to Kathmandu, the national capital.
 
-Chintang is an endangered language.  Despite still serving as the principal
-medium of communication among adults, Nepali has made its way up to the Kiranti
-hills.  In the last ten years, there has been a widespread shift to using Nepali
-as the main language to speak to children and Chintang is therefore no longer
-acquired by most children.  A similar pattern can be observed in neighboring
-languages and reflects a general trend in the country.
+Chintang is an endangered language.  Although it still serves as the principal
+medium of communication among adults, the use of Nepali has expanded
+significantly in the Kiranti region.  Over the last ten years, many families
+have shifted to using Nepali as the primary language when speaking to children,
+with the result that most children no longer acquire Chintang as a first
+language.  A similar pattern can be observed in neighboring languages and
+reflects a general trend in the country.
 
 The closest relatives of Chintang are the neighboring languages Chulung
 (Chɨlɨŋ), Yakkha, Belhare, and Athpare.  Another neighboring language, Bantawa,
@@ -38,7 +39,6 @@ also being fluent in Bantawa and Nepali.
 
 ### 1.2 Dialectal variation
 
-<!-- TODO revise along Robert's pitch -->
 
 Chintang presents a low degree of dialectal variation which is concentrated on
 its two main villages: Mulgaũ and Sambugaũ.  In terms of lexical difference,
@@ -114,15 +114,16 @@ towns of Hile and Dhankuta and exported beyond (Rai et al. 2008–2009).
 ## 2. Sources of the dictionary, documentation project and publications
 
 The Chintang dictionary is largely derived from the Chintang corpus,
-supplemented by some targeted elicitation.  The Chintang corpus is broadly
-divided into two parts.  The largest part tracks first languge acquisition
-longitudinally from six children (age 2 to 4), recording both what children
-produce and what they hear in their environment of adult and child speakers.
-This part was recorded without supervision.  The other part focuses on adult
-speech across different genres.  These recordings were mostly prompted by asking
-questions or showing stimuli (e.g. Pear stories), sometimes with specific
-instructions that aimed at increasing the use of specific patterns of interest
-(Schikowski 2013b):
+supplemented by some targeted
+elicitation.<a href="#fn:2" id="fnref:2" data-toggle="tooltip" title="More information regarding the corpus can be found at: Chintang Language Research Program. An updated version of the corpus is to be released soon"><sup>2</sup></a>
+The Chintang corpus is broadly divided into two parts.  The largest part tracks
+first languge acquisition longitudinally from six children (age 2 to 4),
+recording both what children produce and what they hear in their environment of
+adult and child speakers.  This part was recorded without supervision.  The
+other part focuses on adult speech across different genres.  These recordings
+were mostly prompted by asking questions or showing stimuli (e.g. Pear stories),
+sometimes with specific instructions that aimed at increasing the use of
+specific patterns of interest (Schikowski 2013b):
 
  * conversation: two or more people talking to each other, often with a prompted
    topic
@@ -1010,7 +1011,7 @@ Bickel 2003).  This means that verbal agreement in practice seldom appears along
 with an overt corresponding semantic role.  B) The second point concerns the
 relation between frames and specific verbs.  While a number of verbs only allow
 an intransitive frame, many verbs that license a monotransitive frame can also
-license an intransitive frame.<a href="#ref3" id="3" data-toggle="tooltip" title="The formalism for certain frames may contain a number e.g. (‘T-NOM(1)’).  These numbers identify the argument that correspond across several frames licenced by a single verbal lexeme (but possibly split into more than one entry).  For instance, a S/O ambitransitive verb such as ‘break’ has S-NOM(1) V-s(S) in the vi entry and A-ERG P-NOM(1) V-a(A).o(P) in the vt one because both S and P represent the thing that breaks.  There are also a few complex cases where an additional index (2) is required."><sup>3</sup></a>
+license an intransitive frame.<a href="#fn:3" id="fnref:3" data-toggle="tooltip" title="The formalism for certain frames may contain a number e.g. (‘T-NOM(1)’).  These numbers identify the argument that correspond across several frames licenced by a single verbal lexeme (but possibly split into more than one entry).  For instance, a S/O ambitransitive verb such as ‘break’ has S-NOM(1) V-s(S) in the vi entry and A-ERG P-NOM(1) V-a(A).o(P) in the vt one because both S and P represent the thing that breaks.  There are also a few complex cases where an additional index (2) is required."><sup>3</sup></a>
 This is possible through detransitivization, a productive process of valency
 manipulation (cf. Schikowski 2013a, 21f.; Bickel et al. 2010; Bickel 2011b).
 For the present dictionary we shall mention the two major strategies thereof.
@@ -1049,8 +1050,8 @@ event described occurred spontaneously, without an Agent instigator, or that the
 result continues without the involvement of an Agent.  The following examples
 will illustrate this process:
 
-    (7)  a. hani-karaŋ   oiʔ                    para akka  ŋi-ŋa-nɨŋ
-            2p.POSS-rib  break[.SBJV.NPST.3sS]  COND       know-[SBJV.]1sS-NEG.NPST
+    (7)  a. hani-karaŋ   oiʔ                    para  akka  ŋi-ŋa-nɨŋ
+            2p.POSS-rib  break[.SBJV.NPST.3sS]  COND  1sg   know-[SBJV.]1sS-NEG.NPST
             ‘If your rib should break I won’t know (i.e. I won’t care).’ [CLLDCh4R14S02.0045]
 
          b. huŋ-khiya  ta   od-u-m
@@ -1075,16 +1076,17 @@ example would be the verb *lett* which hence occurs as both ‘plant’ and
 
 ## 5. Footnotes
 
-<a href="#1" id="ref1"><sup>1</sup></a> The rough area where it is spoken was
-formerly the ‘Chintang Village Development Committee’ (VDC) but it has recently
-merged with other VDCs into the Shahidbhumi Rural Municipality.
+<a href="#fn:1" id="fnref:1"><sup>1</sup></a> The rough area where it is spoken
+was formerly the ‘Chintang Village Development Committee’ (VDC) but it has
+recently merged with other VDCs into the Shahidbhumi Rural Municipality.
 
-<a href="#2" id="ref2"><sup>2</sup></a> More information regarding the corpus
-can be found at: [Chintang Language Research Program.](http://www.clrp.uzh.ch/).
-An updated version of the corpus is to be released soon.
+<a href="#fn:2" id="fnref:2"><sup>2</sup></a> More information regarding the
+corpus can be found at:
+[Chintang Language Research Program.](http://www.clrp.uzh.ch/).  An updated
+version of the corpus is to be released soon.
 
-<a href="#3" id="ref3"><sup>3</sup></a> The formalism for certain frames may
-contain a number e.g. (‘T-NOM(**1**)’).  These numbers identify the argument
+<a href="#fn:3" id="fnref:3"><sup>3</sup></a> The formalism for certain frames
+may contain a number e.g. (‘T-NOM(**1**)’).  These numbers identify the argument
 that correspond across several frames licenced by a single verbal lexeme (but
 possibly split into more than one entry).  For instance, a S/O ambitransitive
 verb such as ‘break’ has S-NOM(1) V-s(S) in the *vi* entry and A-ERG P-NOM(1)
