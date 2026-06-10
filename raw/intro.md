@@ -114,8 +114,7 @@ towns of Hile and Dhankuta and exported beyond (Rai et al. 2008–2009).
 ## 2. Sources of the dictionary, documentation project and publications
 
 The Chintang dictionary is largely derived from the Chintang corpus,
-supplemented by some targeted
-elicitation.<a href="#ref2" id="2" data-toggle="tooltip" title="More information regarding the corpus can be found at: Chintang Language Research Program. An updated version of the corpus is to be released soon"><sup>2</sup></a>
+supplemented by some targeted elicitation<a href="#ref2" id="2" data-toggle="tooltip" title="More information regarding the corpus can be found at: Chintang Language Research Program. An updated version of the corpus is to be released soon"><sup>2</sup></a>.
 The Chintang corpus is broadly divided into two parts.  The largest part tracks
 first languge acquisition longitudinally from six children (age 2 to 4),
 recording both what children produce and what they hear in their environment of
@@ -246,16 +245,11 @@ entries, especially regarding the verbs.  We discuss the orthography in
 
 ### 3.1 Entry fields
 
-**Headword** – the lexical entry or lemma.  The entries are arranged
-alphabetically based on this form.  For verbs, it is the stem form, which is
-preferred over the actual citation form, the infinitive *-ma*, because
-morphophonolical effects often conceal crucial differences in the stem.  For
-example, *lap-* ‘catch’ and *lapt-* ‘catch for somebody’ have the same citation
-form *lapma*.  (The prior edition of this dictionary (Rai et al. 2011) solved
-this problem through ordering verbs by the citation form but then adding a third
-person singular past tense form, e.g. *lapma, lapte* to show the underlying stem
-form.) For tetrasyllabic adverbs the *lex* entry also indicates their citation
-form with the adverbializer *-wa*.
+**Headword** – the lexical entry or lemma. Entries are arranged alphabetically
+according to this form. For verbs, the headword is given in its citation form,
+i.e. the infinitive *-ma* in Chintang and *-nu* in Nepali.  For all other word
+classes, the headword corresponds to the lemma. For tetrasyllabic adverbs, the
+headword includes the adverbializer *-wa*.
 
 **Alternative Pronunciation** – alternative pronunciations.
 
@@ -304,10 +298,15 @@ English and Nepali.  Most examples come from the Chintang Corpus (described in
 to the nomenclature of the corpus.  Some examples have been adapted from the
 aforementioned community dictionary.
 
-**Citation form** – This indicates the citation form.  For verbs it is the
-infinitive *-ma* in Chintang and *-nu* in Nepali.  This slot also includes
-a genera of fixed noun combinations – termed ‘binomials’ – that are most
-prominent in the *mundhum* register (cf. Rai et al. 2009; Gaenszle et al. 2012).
+**Stem** – For verbs (including V2s), this field gives the verbal stem.  Stem
+forms are included because morphophonological processes often conceal important
+distinctions that are not visible in the citation form.  For example, *lap-*
+‘catch’ and *lapt-* ‘catch for somebody’ share the same citation form *lapma*.
+The inclusion of stem forms therefore makes underlying morphological contrasts
+transparent.  The previous edition of this dictionary (Rai et al. 2011)
+addressed this issue by listing verbs under their citation form and additionally
+providing a third-person singular past tense form (e.g. *lapma, lapte*) to
+reveal the underlying stem.
 
 **Register** – This marker is only found in entries that correspond to
 a particular register.  The most recurrent register in this dictionary is
