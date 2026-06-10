@@ -17,13 +17,32 @@ def reorganize(sfm):
     return sfm
 
 
+def _swap_lx_and_stem(marker, value, lx, stem):
+    if marker == 'lx':
+        return 'lx', stem
+    elif marker == 'stem':
+        return 'stem', lx
+    else:
+        return marker, value
+
+
+def swap_stem_and_citation_form(entry):
+    stem = entry.get('stem')
+    if not stem:
+        return entry
+    lx = entry.get('lx')
+    return entry.__class__(
+        _swap_lx_and_stem(marker, value, lx, stem)
+        for marker, value in entry)
+
+
 def preprocess(entry):
     """Use this function if you need to change the contents of an entry before
     any other processing.
 
     This is run on every entry in the SFM database.
     """
-    return entry
+    return swap_stem_and_citation_form(entry)
 
 
 class Dataset(BaseDataset):

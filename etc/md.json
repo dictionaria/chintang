@@ -37,7 +37,7 @@
         "entry_sep": "\\lex ",
         "marker_map": {
             "lex": "lx",
-            "ct": "lc",
+            "ct": "stem",
             "ety": "et",
             "com": "nt",
             "gn": "gxx",
@@ -52,7 +52,8 @@
             "val": "Valency",
             "lg": "Language",
             "reg": "Register",
-            "qst": "Question"
+            "qst": "Question",
+            "stem": "Stem"
         },
         "sense_map": {
             "gxx": "alt_translation1",
@@ -70,6 +71,6 @@
         },
         "labels": {
         },
-        "custom_fields": ["Citation Form", "Nepali"]
+        "custom_fields": ["Nepali", "Stem"]
     }
 }
