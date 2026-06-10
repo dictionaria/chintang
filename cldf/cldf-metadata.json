@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/dictionaria/chintang",
             "rdf:type": "prov:Entity",
-            "dc:created": "d0be5d5",
+            "dc:created": "e699e43",
             "dc:title": "Repository"
         },
         {
@@ -78,10 +78,6 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Citation_Form"
-                    },
-                    {
-                        "datatype": "string",
                         "name": "Etymology"
                     },
                     {
@@ -99,6 +95,10 @@
                     {
                         "datatype": "string",
                         "name": "Regular_Allomorphs"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Stem"
                     },
                     {
                         "datatype": "string",
