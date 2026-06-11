@@ -37,7 +37,7 @@
         "entry_sep": "\\lex ",
         "marker_map": {
             "lex": "lx",
-            "ct": "stem",
+            "ct": "lc",
             "ety": "et",
             "com": "nt",
             "gn": "gxx",

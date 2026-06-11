@@ -20,19 +20,21 @@ def reorganize(sfm):
 def _swap_lx_and_stem(marker, value, lx, stem):
     if marker == 'lx':
         return 'lx', stem
-    elif marker == 'stem':
+    elif marker == 'lc':
         return 'stem', lx
     else:
         return marker, value
 
 
 def swap_stem_and_citation_form(entry):
-    stem = entry.get('stem')
-    if not stem:
+    ps = entry.get('ps')
+    reg = entry.get('reg')
+    lc = entry.get('lc')
+    if not lc or reg == 'ritual' or ps not in {'v', 'vi', 'vt', 'v2'}:
         return entry
     lx = entry.get('lx')
     return entry.__class__(
-        _swap_lx_and_stem(marker, value, lx, stem)
+        _swap_lx_and_stem(marker, value, lx, lc)
         for marker, value in entry)
 
 
