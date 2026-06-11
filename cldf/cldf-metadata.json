@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/dictionaria/chintang",
             "rdf:type": "prov:Entity",
-            "dc:created": "e699e43",
+            "dc:created": "fc0d419",
             "dc:title": "Repository"
         },
         {
@@ -75,6 +75,10 @@
                     {
                         "datatype": "string",
                         "name": "Alternative_Pronounciation"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Citation_Form"
                     },
                     {
                         "datatype": "string",
