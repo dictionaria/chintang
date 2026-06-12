@@ -38,13 +38,32 @@ def swap_stem_and_citation_form(entry):
         for marker, value in entry)
 
 
+POS_ERRATA = {
+    'noun': 'n',
+    'intj': 'interj',
+    'vt; n': 'n',
+    'v; n': 'n',
+}
+
+
+def normalise_pos(pair):
+    if pair[0] == 'ps':
+        return 'ps', POS_ERRATA.get(pair[1], pair[1])
+    else:
+        return pair
+
+
 def preprocess(entry):
     """Use this function if you need to change the contents of an entry before
     any other processing.
 
     This is run on every entry in the SFM database.
     """
-    return swap_stem_and_citation_form(entry)
+    entry = swap_stem_and_citation_form(entry)
+    entry = entry.__class__(map(normalise_pos, entry))
+    if entry.get('lx') == 'samet' and not entry.get('ps'):
+        entry.append(('ps', 'n'))
+    return entry
 
 
 class Dataset(BaseDataset):
