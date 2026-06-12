@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/dictionaria/chintang",
             "rdf:type": "prov:Entity",
-            "dc:created": "fc0d419",
+            "dc:created": "beaa63b",
             "dc:title": "Repository"
         },
         {
@@ -40,7 +40,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#EntryTable",
-            "dc:extent": 10824,
+            "dc:extent": 10825,
             "tableSchema": {
                 "columns": [
                     {
@@ -130,7 +130,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#SenseTable",
-            "dc:extent": 10824,
+            "dc:extent": 10825,
             "tableSchema": {
                 "columns": [
                     {
