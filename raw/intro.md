@@ -92,7 +92,7 @@ which made him successful initially, though he was later vanquished and
 disappeared mysteriously.  However, Budhahaŋ is believed to still be alive and
 in fact immortal.
 
-Well known beyond the village is the temple of Chintang Devi (Chintang godess).
+Well known beyond the village is the temple of Chintang Devi (Chintang goddess).
 Many visitors from various ethnic groups, including Indo-Aryan groups, journey
 there on a pilgrimage.  In fact, the temple is en route to the ancient
 pilgrimage site of Barahakshetra (Nep. *Varāhakṣetra*) at the confluence of the
@@ -116,7 +116,7 @@ towns of Hile and Dhankuta and exported beyond (Rai et al. 2008–2009).
 The Chintang dictionary is largely derived from the Chintang corpus,
 supplemented by some targeted elicitation<a href="#ref2" id="2" data-toggle="tooltip" title="More information regarding the corpus can be found at: Chintang Language Research Program. An updated version of the corpus is to be released soon"><sup>2</sup></a>.
 The Chintang corpus is broadly divided into two parts.  The largest part tracks
-first languge acquisition longitudinally from six children (age 2 to 4),
+first language acquisition longitudinally from six children (age 2 to 4),
 recording both what children produce and what they hear in their environment of
 adult and child speakers.  This part was recorded without supervision.  The
 other part focuses on adult speech across different genres.  These recordings
@@ -320,7 +320,7 @@ as *child*.  Words that are deemed to be abusive by speakers have the marker
 village.
 
 **Comment** – For some entries there are comments of various types, such as
-indications on morpho-phonology, relation to other entries and remarks provided
+indications on morphophonology, relation to other entries and remarks provided
 by consultants.
 
 **Question** – The present dictionary has largely grown out of a corpus, as
@@ -939,7 +939,7 @@ denotes a kind of self-benefaction:
 Some v2 elements control the agreement morphology of their V1 (e.g. those with
 a causative or benefactive meaning component like in (2)) and temporal-aspectual
 v2s not only control their V1's tense morphology but come close to being
-tempus-aspect markers such as *-a* ‘<small>PST</small>’ or *-nok*
+tense-aspect markers such as *-a* ‘<small>PST</small>’ or *-nok*
 <small>‘IND.NPST’</small> (Schikowski 2022 p.c.).  Other v2s follow the
 agreement and TAMP pattern of their host.
 
@@ -1085,7 +1085,7 @@ An updated version of the corpus is to be released soon.
 
 <a href="#3" id="ref3"><sup>3</sup></a> The formalism for certain frames may
 contain a number e.g. (‘T-NOM(**1**)’).  These numbers identify the argument
-that correspond across several frames licenced by a single verbal lexeme (but
+that correspond across several frames licensed by a single verbal lexeme (but
 possibly split into more than one entry).  For instance, a S/O ambitransitive
 verb such as ‘break’ has S-NOM(1) V-s(S) in the *vi* entry and A-ERG P-NOM(1)
 V-a(A).o(P) in the *vt* one because both S and P represent the thing that
