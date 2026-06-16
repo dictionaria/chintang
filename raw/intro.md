@@ -245,6 +245,12 @@ entries, especially regarding the verbs.  We discuss the orthography in
 
 ### 3.1 Entry fields
 
+**Full Entry** – The leftmost column of the dictionary table provides access to
+the complete entry.  Clicking on *more* expands the entry and displays all
+available information associated with the lexical item, including fields that do
+not appear as separate columns in the table. The search function also searches
+these expanded fields.
+
 **Headword** – the lexical entry or lemma. Entries are arranged alphabetically
 according to this form. For verbs, the headword is given in its citation form,
 i.e. the infinitive *-ma* in Chintang and *-nu* in Nepali.  For all other word
@@ -276,11 +282,15 @@ can be less well established than the integration of Nepali words.
 
 **Etymology** – etymology when known (mostly for compounds)
 
+**Citation form** – This slot includes a genera of fixed noun combinations
+– termed ‘binomials’ – that are most prominent in the *mundhum* register
+(cf.  Rai et al. 2009; Gaenszle et al. 2012).
+
 **Meaning** (English and Nepali) – translation equivalents (‘glosses’) in
 English and Nepali.  Some entries have more than one translation.
 
 For some entries, such as ‘sound’ words, interjections, and ideophones (see
-[Section 3.2](#section8)), we give a usage description rather than translation
+[Section 3.2](#section8)), we give a usage description rather than translation.
 
 **Expanded Definition** – semantic description in English and Nepali.  For some
 entries there is an expanded explanation of the meaning beyond what is given in
