@@ -38,6 +38,26 @@ def swap_stem_and_citation_form(entry):
         for marker, value in entry)
 
 
+def _remove_none(marker, value, lx):
+    if marker == 'ps' and value == 'none':
+        if lx == 'adi':
+            return 'ps', 'gm'
+        elif lx in {'urra',  'ghoʔle'}:
+            return 'ps', 'interj'
+        else:
+            print(lx)
+            raise AssertionError('UNREACHABLE')
+    else:
+        return marker, value
+
+
+def remove_none(entry):
+    lx = entry.get('lx')
+    return entry.__class__(
+        _remove_none(marker, value, lx)
+        for marker, value in entry)
+
+
 POS_ERRATA = {
     'noun': 'n',
     'intj': 'interj',
@@ -59,7 +79,10 @@ def preprocess(entry):
 
     This is run on every entry in the SFM database.
     """
+    if entry.get('ps') == 'v' or entry.get('lx') == 'SELF':
+        return False
     entry = swap_stem_and_citation_form(entry)
+    entry = remove_none(entry)
     entry = entry.__class__(map(normalise_pos, entry))
     if entry.get('lx') == 'samet' and not entry.get('ps'):
         entry.append(('ps', 'n'))
