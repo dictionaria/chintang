@@ -5,7 +5,7 @@ bs4==0.0.2
 cdstarcat==1.6.0
 certifi==2026.4.22
 cldfbench==2.0.1
--e git+https://github.com/dictionaria/chintang@beaa63be9b7440aa0f30bbdcef54711c7ecf5b96#egg=cldfbench_chintang
+-e git+https://github.com/dictionaria/chintang@2c37b3448ffc0653098f81c2f1c8545e128c1cd2#egg=cldfbench_chintang
 cldfcatalog==1.7.0
 cldfzenodo==3.0.0
 clldutils==4.0.0
@@ -30,7 +30,7 @@ pycdstar==1.2.2
 pycldf==2.0.2
 pyconcepticon==4.0.0
 pycountry==26.2.16
--e git+ssh://git@github.com/dictionaria/pydictionaria@674845b5b19803ec7f122560a2423775a26fb5c6#egg=pydictionaria
+-e git+ssh://git@github.com/dictionaria/pydictionaria@b6072329018b0beeae45b947814c65e41f64daac#egg=pydictionaria
 pyglottolog==4.0.1
 Pygments==2.20.0
 pylatexenc==2.10
