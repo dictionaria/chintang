@@ -1,0 +1,121 @@
+{
+    "title": "Chintang Dictionary",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Dictionary",
+        "linguistics"
+    ],
+    "upload_type": "dataset",
+    "license": {
+        "id": "CC-BY-4.0"
+    },
+    "communities": [
+        {
+            "identifier": "cldf-datasets"
+        },
+        {
+            "identifier": "dictionaria"
+        }
+    ],
+    "creators": [
+        {
+            "name": "Rolf Hotz"
+        },
+        {
+            "name": "Robert Schikowski"
+        },
+        {
+            "name": "Ichchha Purna Rai"
+        },
+        {
+            "name": "Anita Rai"
+        },
+        {
+            "name": "Chandra Kumari Rai"
+        },
+        {
+            "name": "Dayaram Rai"
+        },
+        {
+            "name": "Durga Bahadur Rai"
+        },
+        {
+            "name": "Durga Kumari Rai"
+        },
+        {
+            "name": "Ganesh Rai"
+        },
+        {
+            "name": "Janak Kumari Rai"
+        },
+        {
+            "name": "Lash Kumari (Renuka) Rai"
+        },
+        {
+            "name": "Manoj Rai"
+        },
+        {
+            "name": "Rabindra Kumar Rai"
+        },
+        {
+            "name": "Rikhi Maya Rai"
+        },
+        {
+            "name": "Shanti Maya Rai"
+        },
+        {
+            "name": "Goma Banjade"
+        },
+        {
+            "name": "Toya Nath Bhatta"
+        },
+        {
+            "name": "Dagmar Jung"
+        },
+        {
+            "name": "Netra Prasad Paudyal"
+        },
+        {
+            "name": "Judi Pettigrew"
+        },
+        {
+            "name": "Sebastian Sauppe"
+        },
+        {
+            "name": "Taras Zakharko"
+        },
+        {
+            "name": "Martin Gaenszle"
+        },
+        {
+            "name": "Novel Kishor Rai"
+        },
+        {
+            "name": "Elena Lieven"
+        },
+        {
+            "name": "Sabine Stoll"
+        },
+        {
+            "name": "Balthasar Bickel"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Johannes Englisch",
+            "type": "Other"
+        },
+        {
+            "name": "Iren Hartmann",
+            "type": "Other"
+        },
+        {
+            "name": "Barbara Stiebels",
+            "type": "Other"
+        },
+        {
+            "name": "Martin Haspelmath",
+            "type": "Other"
+        }
+    ]
+}
