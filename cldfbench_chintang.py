@@ -3,7 +3,6 @@ import pathlib
 
 from cldfbench import CLDFSpec, Dataset as BaseDataset
 
-from simplepybtex.database import parse_string
 from pydictionaria.sfm_lib import Database as SFM
 from pydictionaria import sfm2cldf
 
@@ -133,11 +132,6 @@ class Dataset(BaseDataset):
 
         examples = sfm2cldf.load_examples(self.raw_dir / 'examples.sfm')
 
-        if (self.raw_dir / 'sources.bib').exists():
-            sources = parse_string(self.raw_dir.read('sources.bib'), 'bibtex')
-        else:
-            sources = None
-
         if (self.etc_dir / 'cdstar.json').exists():
             media_catalog = self.etc_dir.read_json('cdstar.json')
         else:
@@ -189,8 +183,6 @@ class Dataset(BaseDataset):
 
         # output
 
-        if sources:
-            args.writer.cldf.add_sources(sources)
         args.writer.cldf.properties['dc:creator'] = sfm2cldf.format_authors(
             md.get('authors') or ())
 
