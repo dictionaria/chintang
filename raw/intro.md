@@ -217,7 +217,7 @@ Rolf Hotz.
 [rai2005]: https://www.zora.uzh.ch/entities/publication/b9fd72ea-d0b4-4ee5-8fbd-74626fc2aefb
 [rai2009]: https://www.zora.uzh.ch/entities/publication/285aa7d3-becb-480e-a392-ef34e8d044d1
 [rai2011]: https://www.zora.uzh.ch/entities/publication/10f7c80b-13c3-4fd1-9354-f6a0daf901f3
-[rai2011pdf]: http://www.clrp.uzh.ch/downloads/ctn-dict.pdf/
+[rai2011pdf]: http://www.clrp.uzh.ch/downloads/ctn-dict.pdf
 [ruest2022]: https://www.zora.uzh.ch/server/api/core/bitstreams/83a0bcf2-7247-4f42-9ed8-2ed4923d11cb/content
 [samardzic2015]: https://www.zora.uzh.ch/entities/publication/2a9d328e-6d15-4d5a-b893-f8e75b412c9a
 [schikowski2013]: https://www.clrp.uzh.ch/downloads/schikowski-chintang-nepali-ocdm.pdf
@@ -1158,7 +1158,7 @@ paradigm sets, grammar sketches, ethnographic descriptions, and photographs*.
 University of Zurich.
 
 CLRP [Chintang language research project]. (2013).  *The language*.  Retrieved
-from: <https://www.clrp.uzh.ch/people.html/>.
+from: <https://www.clrp.uzh.ch/people.html>.
 
 Dirksmeyer, D. (2009).  *Spatial Deixis in Chintang: Aspects of a Grammar of
 Space*.  MA thesis.  University of Zurich.
@@ -1272,7 +1272,7 @@ and Nepali*.  University of Zurich, Philosophische Fakultät, PhD thesis.
 
 Schikowski, R. (2013b).  *Intermediate report for the Chintang Language
 Programme*.  Retrieved from:
-<https://www.clrp.uzh.ch/downloads/CLRP-report-2013.pdf/>.
+<https://www.clrp.uzh.ch/downloads/CLRP-report-2013.pdf>.
 
 Schikowski, R., Bickel, B. &amp; N. P. Paudyāl (2013).  Chintang.  In: Hartmann,
 Iren &amp; Haspelmath, Martin &amp; Taylor, Bradley (eds.) Valency Patterns
