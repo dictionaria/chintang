@@ -1090,7 +1090,7 @@ formerly the ‘Chintang Village Development Committee’ (VDC) but it has recen
 merged with other VDCs into the Shahidbhumi Rural Municipality.
 
 <a href="#2" id="ref2"><sup>2</sup></a> More information regarding the corpus
-can be found at: [Chintang Language Research Program.](http://www.clrp.uzh.ch/).
+can be found at: [Chintang Language Research Program](http://www.clrp.uzh.ch/).
 An updated version of the corpus is to be released soon.
 
 <a href="#3" id="ref3"><sup>3</sup></a> The formalism for certain frames may
@@ -1158,7 +1158,7 @@ paradigm sets, grammar sketches, ethnographic descriptions, and photographs*.
 University of Zurich.
 
 CLRP [Chintang language research project]. (2013).  *The language*.  Retrieved
-from: <https://www.clrp.uzh.ch/people.html>.
+from: <https://www.clrp.uzh.ch/en/language.html>.
 
 Dirksmeyer, D. (2009).  *Spatial Deixis in Chintang: Aspects of a Grammar of
 Space*.  MA thesis.  University of Zurich.
